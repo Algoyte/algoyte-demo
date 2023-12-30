@@ -1,0 +1,81 @@
+.header {
+    position: relative;
+    margin-bottom: 50px;
+    transition: 300ms;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.header-back-video {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.header-top-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+}
+
+.header-logo {
+    height: 30px;
+}
+
+.green-code {
+    color: lime;
+    font-size: 10px;
+}
+
+.header-bottom-div {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 10px;
+}
+
+.hero {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hero span {
+    color: lime;
+}
+
+.github-icon {
+    height: 20px;
+}
+
+.header-github-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(50, 50, 50);
+    color: white;
+    padding: 12px;
+    border-radius: 100px;
+    column-gap: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.header-github-btn:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.header-github-btn:active {
+    opacity: 0.5;
+}
