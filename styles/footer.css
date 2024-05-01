@@ -1,23 +1,23 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    transition: 200ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  transition: 200ms;
 }
 
 .footer-logo {
-    height: 20px;
-    transition: 100ms;
-    margin-bottom: 4px;
+  height: 20px;
+  transition: 100ms;
+  margin-bottom: 4px;
 }
 
 .footer-logo:active {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .copyright {
-    font-weight: 300;
-    font-size: 10px;
+  font-weight: 300;
+  font-size: 10px;
 }

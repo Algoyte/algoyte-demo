@@ -1,134 +1,134 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 .about-me {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 45px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 45px;
 }
 
 .exp-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
-    margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 40px;
 }
 
 .exp-box,
 .exp-box1,
 .exp-box2,
 .exp-box3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    border: 1px solid rgb(50, 50, 50);
-    width: 100px;
-    padding: 20px;
-    cursor: default;
-    transition: 300ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid rgb(50, 50, 50);
+  width: 100px;
+  padding: 20px;
+  cursor: default;
+  transition: 300ms;
 }
 
 .exp-box .l1,
 .exp-box1 .l1,
 .exp-box2 .l1,
-.exp-box3 .l1{
-    font-size: 13px;
-    margin-bottom: 6px;
-    font-weight: 600;
+.exp-box3 .l1 {
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: 600;
 }
 
 .exp-box .l2,
 .exp-box1 .l2,
 .exp-box2 .l2,
-.exp-box3 .l2{
-    font-weight: 300;
-    font-size: 11px;
+.exp-box3 .l2 {
+  font-weight: 300;
+  font-size: 11px;
 }
 
 .exp-box:hover {
-    border-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
 }
 
 .exp-box1:hover {
-    color: #f06529;
-    border-color: #f06529;
+  color: #f06529;
+  border-color: #f06529;
 }
 
 .exp-box2:hover {
-    color: #2965f1;
-    border-color:#2965f1;
+  color: #2965f1;
+  border-color: #2965f1;
 }
 
 .exp-box3:hover {
-    color: yellow;
-    border-color: yellow;
+  color: yellow;
+  border-color: yellow;
 }
 
 .panels {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    row-gap: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  row-gap: 60px;
 }
 
 .panel1,
 .panel2 {
-    position: relative;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .panel1 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-    width: 250px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  width: 250px;
 }
 
 .panel1 span:hover,
 .panel2 span:hover {
-    color: lime;
+  color: lime;
 }
 
 .panel1 span,
 .panel2 span {
-    font-size: 20px;
-    font-weight: bold;
-    transition: 300ms;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 300ms;
 }
 
 .about-me-text:hover span {
-    color: lime;
+  color: lime;
 }
 
 .about-me-text {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 25px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 .panel2 {
-    width: 250px;
-    height: 300px;
-    border-radius: 10px;
-    padding: 15px;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .panel2 img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    z-index: -1;
-    inset: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: -1;
+  inset: 0;
 }
